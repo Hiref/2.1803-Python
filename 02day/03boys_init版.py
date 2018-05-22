@@ -3,7 +3,7 @@ class boy():
 		self.age = age
 		self.weight = weight
 		self.Game = []
-		list = ("第五人格")
+		list = input("请薛之谦输入游戏名称")
 		self.Game.append(list)
 	def opencar(self,car):
 		print("一定会开车%s"%car)
